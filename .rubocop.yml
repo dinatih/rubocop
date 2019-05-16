@@ -60,12 +60,8 @@ Lint/AmbiguousBlockAssociation:
     - 'spec/**/*.rb'
 
 Layout/AlignHash:
-  EnforcedHashRocketStyle:
-    - key
-    - table
-  EnforcedColonStyle:
-    - key
-    - table
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
 
 Lint/InterpolationCheck:
   Exclude:
